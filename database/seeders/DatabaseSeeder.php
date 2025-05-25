@@ -656,8 +656,16 @@ class DatabaseSeeder extends Seeder
             $products['Limão']->id => ['price' => 3.00, 'stock' => 90],
             $products['Filé de Tilápia']->id => ['price' => 28.00, 'stock' => 30],
             $products['Salmão Fresco']->id => ['price' => 45.00, 'stock' => 20],
-            $products['Batata Inglesa']->id => ['price' => 3.50, 'stock' => 100],
-        ]);
+            $products['Doritos']->id => ['price' => 4.50, 'stock' => 100],
+            $products['Cheetos']->id => ['price' => 4.50, 'stock' => 100],
+            $products['Pringles batatas']->id => ['price' => 12.50, 'stock' => 100],
+            $products['Chocolate Kit Kat']->id => ['price' => 5.50, 'stock' => 100],
+            $products['Chocolate Branco Oreo']->id => ['price' => 3.50, 'stock' => 100],
+            $products['Chocolate Diamante Negro']->id => ['price' => 3.50, 'stock' => 100],
+            $products['Red Bull']->id => ['price' => 15.50, 'stock' => 100],
+            $products['Pepsi']->id => ['price' => 9.50, 'stock' => 100],
+            $products['CocaCola']->id => ['price' => 10.50, 'stock' => 100],
+            ]);
 
         // Tienda 2: Loja Verde Cachoeira (Mais focada em produtos saudáveis e de nicho)
         $store2->products()->sync([
@@ -694,6 +702,15 @@ class DatabaseSeeder extends Seeder
             $products['Caldo de Vegetais']->id => ['price' => 6.70, 'stock' => 35],
             $products['Fermento em Pó']->id => ['price' => 3.10, 'stock' => 45],
             $products['Bicarbonato de Sódio']->id => ['price' => 2.60, 'stock' => 55],
+            $products['Doritos']->id => ['price' => 4.30, 'stock' => 100],
+            $products['Cheetos']->id => ['price' => 4.30, 'stock' => 100],
+            $products['Pringles batatas']->id => ['price' => 12.40, 'stock' => 100],
+            $products['Chocolate Kit Kat']->id => ['price' => 5.80, 'stock' => 100],
+            $products['Chocolate Branco Oreo']->id => ['price' => 3.90, 'stock' => 100],
+            $products['Chocolate Diamante Negro']->id => ['price' => 3.30, 'stock' => 100],
+            $products['Red Bull']->id => ['price' => 15.10, 'stock' => 100],
+            $products['Pepsi']->id => ['price' => 9.00, 'stock' => 100],
+            $products['CocaCola']->id => ['price' => 10.20, 'stock' => 100],
         ]);
 
         // Tienda 3: Supermercado Caperozu (Ampla variedade, incluindo alguns não tão saudáveis)
@@ -727,6 +744,16 @@ class DatabaseSeeder extends Seeder
             $products['Cenoura']->id => ['price' => 3.10, 'stock' => 85],
             $products['Tomate']->id => ['price' => 3.90, 'stock' => 95],
             $products['Laranja']->id => ['price' => 3.40, 'stock' => 85],
+            $products['Doritos']->id => ['price' => 4.50, 'stock' => 100],
+            $products['Cheetos']->id => ['price' => 4.10, 'stock' => 100],
+            $products['Pringles batatas']->id => ['price' => 11.90, 'stock' => 100],
+            $products['Chocolate Kit Kat']->id => ['price' => 6.00, 'stock' => 100],
+            $products['Chocolate Branco Oreo']->id => ['price' => 4.20, 'stock' => 100],
+            $products['Chocolate Diamante Negro']->id => ['price' => 3.50, 'stock' => 100],
+            $products['Red Bull']->id => ['price' => 14.80, 'stock' => 100],
+            $products['Pepsi']->id => ['price' => 8.70, 'stock' => 100],
+            $products['CocaCola']->id => ['price' => 10.50, 'stock' => 100],
+
         ]);
 
         // Tienda 4: MiniMarket Caperozu (Mais pequeno, com produtos essenciais e alguns de conveniência)
@@ -755,6 +782,16 @@ class DatabaseSeeder extends Seeder
             $products['Leite de Coco (Lata)']->id => ['price' => 9.20, 'stock' => 60],
             $products['Queijo Minas Frescal']->id => ['price' => 15.00, 'stock' => 40],
             $products['Farinha de Mandioca']->id => ['price' => 8.20, 'stock' => 70],
+            $products['Doritos']->id => ['price' => 4.70, 'stock' => 100],
+            $products['Cheetos']->id => ['price' => 4.25, 'stock' => 100],
+            $products['Pringles batatas']->id => ['price' => 12.10, 'stock' => 100],
+            $products['Chocolate Kit Kat']->id => ['price' => 5.90, 'stock' => 100],
+            $products['Chocolate Branco Oreo']->id => ['price' => 4.00, 'stock' => 100],
+            $products['Chocolate Diamante Negro']->id => ['price' => 3.40, 'stock' => 100],
+            $products['Red Bull']->id => ['price' => 15.40, 'stock' => 100],
+            $products['Pepsi']->id => ['price' => 9.10, 'stock' => 100],
+            $products['CocaCola']->id => ['price' => 10.00, 'stock' => 100],
+
         ]);
 
 
